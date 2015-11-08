@@ -1,0 +1,103 @@
+img{
+    height: 50px;
+    width: 230px;
+    max-width: 100%;
+    border-radius: 5px;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+}
+.text-center{
+    text-align: center;
+}
+.temp_center{
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+}
+.temp_other{
+    color: #696969;
+    font-size: 25px;
+    font-weight: 700;
+}
+.hpa{
+    color: #696969;
+    font-size: 20px;
+    font-weight: 700;
+}
+.no_margin_bottom{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.light_green {
+     background-color: rgba(0, 200, 0, 0.5);
+}
+.light_orange{
+    background-color: rgba(254, 172, 0, 0.5);
+}
+.orange{
+    background-color: rgb(0, 0, 0);
+}
+.weather_block{
+    padding: 5px 20px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.no_padding{
+    padding:0px;
+}
+.no_margin{
+    margin:0px;
+}
+#logo{
+    width: 120px;
+}
+.navbar-default .navbar-brand{
+    color: white;
+}
+.mw{
+    background-color: rgba(0,0,0,0.9);
+    height: 182px;
+}
+.mw span {
+    color: white;
+}
+.light_orange span{
+    color: black;
+}
+.container .jumbotron, .container-fluid .jumbotron {
+    padding: 20px 50px;
+}
+.span_jumbotron{
+    float:right;
+}
+.jumbotron h1 {
+    font-size: 50px;
+}
+.input-group {
+    margin-bottom: 20px;
+}
+@media only screen and (max-width : 480px) {
+    .container .jumbotron, .container-fluid .jumbotron {
+        padding: 20px 20px;
+    }
+    .h2, h2 {
+        font-size: 1.4em;
+        text-align: center;
+    }
+    .jumbotron h1 {
+        font-size: 1.4em;
+        text-align: center;
+    }
+    .jumbotron p {
+        font-size: 1.2em;
+        text-align: center;
+    }
+    .navbar-default .navbar-brand {
+        font-size: 1em;
+    }
+    .form-group{
+        display: flex;
+    }
+}
